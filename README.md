@@ -45,4 +45,4 @@ Elastic Weight Consolidation is a technique aimed at enabling continual learning
 
 ## Conclusion
 
-Our approach outperforms models trained on all data simultaneously. By addressing continual learning challenges in NLP, we aim to contribute to the advancement of adaptable models in medical text analysis.
+Our approach outperforms models trained on all data simultaneously. By addressing continual learning challenges in NLP, we aim to contribute to the advancement of adaptable models in medical text analysis. Also, We can get better performance with a bigger model and more training. Like even using bert-large and training it for more number of epochs with early stopping could do the trick. This is just for demonstration of approach, bert-base is the smallest popular transformer model and we trained for just 10 epochs.
