@@ -27,10 +27,9 @@ Elastic Weight Consolidation is a technique aimed at enabling continual learning
 1. **Preprocessing**: Organizing datasets into a dataframe with sentences and labels.
 2. **Tokenization**: Ensuring no labeled entities are lost during tokenization.
 3. **Custom Functions**: Developed for preprocessing, dataset creation, and training.
-4. **Fine-tuning**: Full-parameter fine-tuning of the Bert-Base model for Task T1.
-5. **Fisher Information Computation**: Calculated for model parameters, focusing on regularization with EWC.
+4. **Fine-tuning**: Full-parameter fine-tuning of the Bert-Base model for Tasks T1, T2, T3 in a sequential manner while preserving knowledge from previous tasks.
+5. **Fisher Information Computation**: Calculated importance of each model parameter, focusing on regularization of those parameters based on their importances with EWC.
 6. **Validation**: Conducted on validation sets of previous tasks alongside the current task.
-7. **Model Size Maintenance**: Retains the same 110M parameters throughout training.
 
 ## Performance Metrics
 
